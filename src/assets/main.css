@@ -67,6 +67,7 @@ ul.cart {
 
 ul.purchases {
   border-color: #e74677;
+  width: 500px;
 }
 
 li {

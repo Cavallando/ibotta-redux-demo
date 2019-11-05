@@ -9,10 +9,10 @@ const YouEarnedIt = ({ name }) => (
 );
 
 const YouEarnedItList = ({ purchases, offers  }) => (
-  purchases ? (<div style={{ padding: 20 }}>
+  purchases.length ? (<div style={{ padding: 20 }}>
     <ListHeader text="Redeemed Offers" />
     <ul className="purchases">
-      {Object.keys(purchases).map(offerId =>
+      {purchases.map(offerId =>
         <YouEarnedIt
           key={offerId}
           {...offers[offerId]}
