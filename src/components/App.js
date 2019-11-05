@@ -6,7 +6,7 @@ import '../assets/main.css';
 import YouEarnedItList from './YouEarnedItList';
 
 const App = () => (
-  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+  <div className="container">
     <div>
       <AddOffer />
     </div>

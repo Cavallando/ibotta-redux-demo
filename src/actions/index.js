@@ -5,9 +5,3 @@ export const addOffer = name => ({
   id: nextOfferId++,
   name,
 });
-
-export const unlockOffer = (id, name) => ({
-  type: 'UNLOCK_OFFER',
-  id,
-  name,
-});
